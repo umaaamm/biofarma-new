@@ -7,7 +7,6 @@ import { Provider } from 'react-redux';
 import ConfigureStore from './Redux/Store/ConfigureStore';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 const store = ConfigureStore();
 ReactDOM.render(
   <React.StrictMode>
