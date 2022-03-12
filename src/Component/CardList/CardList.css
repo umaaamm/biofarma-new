@@ -1,0 +1,82 @@
+.list-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-product-item {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    margin: 10px;
+}
+
+.list-container {
+    width: 264px;
+    height: 333px;
+    left: 444px;
+    top: 263px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.card-width {
+    width: 264px;
+}
+
+.image-size {
+    /* width: 264px; */
+    height: 182px;
+    left: 0px;
+    top: 0px;
+    /* align-items: center */
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.font-card {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.font-card-des {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.xxx {
+left: 5.68%;
+right: 74.62%;
+top: 86.19%;
+bottom: 6.01%;
+width: 52px;
+background: #FFFFFF;
+border: 1px solid #EAEAEA;
+box-sizing: border-box;
+border-radius: 19px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin-right: 12px;
+/* Gray 3 */
+
+color: #828282;
+}
+
+.vector {
+    /* left: 5.56%; */
+margin-right: 15%;
+margin-top: 5.56%;
+margin-bottom: 5.56%;
+margin-left: 5.56%;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+}

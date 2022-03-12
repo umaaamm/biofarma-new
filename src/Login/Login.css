@@ -1,0 +1,130 @@
+.login {
+    background-color: #61dafb;
+}
+
+.login-logo {
+    position: absolute;
+    width: 192px;
+    height: 49px;
+    left: 156px;
+    top: 29px;
+}
+
+.login-header {
+    position: relative;
+    width: 100%;
+    height: 106px;
+    background: #FFFFFF;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background: #EF5734;
+    height: 90vh;
+}
+
+.login-form {
+    position: relative;
+    width: 360px;
+    height: 563px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: 60px 60px;
+    padding: 24px 30px;
+}
+
+.login-img-content {
+    width: 552px;
+    height: 139px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.login-form label{
+    display: block;
+}
+.login-label {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 49px;
+    height: 27px;
+    margin-bottom: 60px;
+}
+.label-input{
+    margin-bottom: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+
+.label-input-text {
+    width: 44px;
+    height: 24px;
+}
+
+.label-input-password {
+    width: 79px;
+    height: 24px;
+}
+
+.form-input{
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 21px;
+}
+
+.form-button-login {
+    width: 100%;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: #BDBDBD;
+    border-radius: 6px;
+    border: 1px solid #BDBDBD;
+}
+
+.login-lewati {
+    position: absolute;
+    width: 84%;
+    bottom: 16px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #EF5734;
+}
+
+.error-message{
+    width: 100%;
+    height: 58px;
+    color: white;
+    background: black;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.error-label {
+    flex-direction: row
+}

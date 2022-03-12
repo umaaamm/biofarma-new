@@ -1,0 +1,256 @@
+.home-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 156px;
+    flex-direction: column;
+}
+
+.home-header-top {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.home-header-top-first {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+
+.home-header-top-second {
+    display: flex;
+    align-items: center;
+    /* background-color: brown; */
+}
+
+.home-header-top-first label {
+    margin: 0 10px;
+}
+
+.list-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-product-item {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    margin: 10px;
+}
+
+.list-container {
+    width: 264px;
+    height: 333px;
+    left: 444px;
+    top: 263px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+
+
+/* tambahan */
+
+.header-home {
+    width: 1440px;
+    height: 177px;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.header-logo {
+    width: 192px;
+    height: 46px;
+    left: 156px;
+    top: 60px;
+    position: relative;
+
+}
+
+.input-search {
+    position: absolute;
+    width: 648px;
+    height: 46px;
+    left: 372px;
+    top: 60px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.button-pencarian {
+    position: absolute;
+    width: 72px;
+    height: 46px;
+    left: 1044px;
+    top: 60px;
+
+    /* Red */
+
+    background: #EF5734;
+    border-radius: 6px;
+}
+
+.button-history {
+    width: 46px;
+    height: 46px;
+    left: 1238px;
+    top: 60px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+
+/* gabungan bootstrap */
+
+.button-src {
+    width: 72px;
+    height: 46px;
+    left: 1044px;
+    top: 60px;
+    background: #EF5734;
+    border-radius: 6px;
+}
+
+.header-baru {
+    margin-top: 50px;
+}
+
+
+/* sss */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.navbar-container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+
+.navbar-dashboard {
+    flex-direction: column;
+    align-items: unset;
+    padding: 0 156px 17px 156px;
+}
+
+.sticky-top {
+    background: #ffffff;
+}
+
+.navbar-brand {
+    margin-right: 24px;
+}
+
+input.search-input {
+    margin-right: 24px;
+    width: 648px;
+}
+
+.search-bar {
+    padding-right: 122px;
+}
+
+.search-btn {
+    background-color: #EF5734;
+    border-color: #EF5734;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.search-btn:hover {
+    background-color: #EF5734;
+    border-color: #EF5734;
+}
+
+.navbar-container-bottom {
+    display: flex;
+    margin-top: 21px;
+}
+
+.navbar-container-bottom button {
+    margin-right: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #BDBDBD;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar-container-bottom button:hover,
+.navbar-container-bottom button:focus {
+    color: #EF5734;
+    border-bottom: 2px solid #EF5734;
+    padding-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+.sort-button {
+    display: flex;
+    align-items: center;
+}
+
+.urutkan-label {
+    margin-right: 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #3D3D3D;
+    font-size: 16px;
+}
+
+.sort-button button {
+    margin-right: 24px;
+    background-color: #ffffff;
+    border: 1px solid #EAEAEA;
+    color: 
+    #898989;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.sort-button button:hover,
+.sort-button button:focus{
+    background-color: #EF5734;
+    border-color: #EF5734;
+    color: #ffffff;
+    outline: none;
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+.content-container {
+    background: #E5E5E5;
+    padding: 20px 156px;
+}
+
+.margin-content {
+margin-top: 31px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #E5E5E5;
+}
